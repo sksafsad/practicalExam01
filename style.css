@@ -1,0 +1,13 @@
+/* Reset and Basic Styles */
+body, h1, h2, h3, p, nav, main, footer, img, form, label, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
