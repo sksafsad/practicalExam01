@@ -33,3 +33,44 @@ nav a:hover, nav a.active{
     border-radius: 5px;
 }
 
+/* Main Content Styles */
+main {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-content .hero img {
+    max-width: 500px;
+    border-radius: 30px;
+    align-items: center;
+}
+
+.home-content .featured {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.home-content .featured-beans {   
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.home-content .featured-beans .bean {
+    width: 45%;
+    text-align: center;
+}
+
+.home-content .featured-beans .bean img {
+    max-width: 100%;
+    border-radius: 30px;
+}
+
